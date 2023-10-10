@@ -4,7 +4,7 @@ region = "us-east-1"
 }
 
 resource "aws_instance" "one" {
-  ami             = "ami-0bb4c991fa89d4b9b"
+  ami             = "ami-067d1e60475437da2"
   instance_type   = "t2.micro"
   key_name        = "rahamnewterrakp"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -23,7 +23,7 @@ EOF
 }
 
 resource "aws_instance" "two" {
-  ami             = "ami-0bb4c991fa89d4b9b"
+  ami             = "ami-067d1e60475437da2"
   instance_type   = "t2.micro"
   key_name        = "rahamnewterrakp"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -42,7 +42,7 @@ EOF
 }
 
 resource "aws_instance" "three" {
-  ami             = "ami-0bb4c991fa89d4b9b"
+  ami             = "ami-067d1e60475437da2"
   instance_type   = "t2.micro"
   key_name        = "rahamnewterrakp"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -53,7 +53,7 @@ resource "aws_instance" "three" {
 }
 
 resource "aws_instance" "four" {
-  ami             = "ami-0bb4c991fa89d4b9b"
+  ami             = "ami-067d1e60475437da2"
   instance_type   = "t2.micro"
   key_name        = "rahamnewterrakp"
   vpc_security_group_ids = [aws_security_group.five.id]
@@ -88,7 +88,7 @@ resource "aws_security_group" "five" {
 }
 
 resource "aws_s3_bucket" "six" {
-  bucket = "devopsbyrahamterraserverbucketoo99"
+  bucket = "thisismybucketlala"
 }
 
 resource "aws_iam_user" "seven" {
